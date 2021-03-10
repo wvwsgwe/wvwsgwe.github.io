@@ -1,5 +1,5 @@
 /* PrismJS 1.23.0
-https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clike+javascript+c+cpp&plugins=line-numbers+show-language+command-line+toolbar+copy-to-clipboard+download-button+match-braces */
+https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clike+javascript+c+cpp&plugins=line-numbers+autolinker+show-language+command-line+toolbar+copy-to-clipboard+download-button+match-braces */
 /**
  * okaidia theme for JavaScript, CSS and HTML
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
@@ -165,6 +165,9 @@ pre[class*="language-"].line-numbers > code {
 			text-align: right;
 		}
 
+.token a {
+	color: inherit;
+}
 div.code-toolbar {
 	position: relative;
 }
